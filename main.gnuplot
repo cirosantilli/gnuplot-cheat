@@ -2,10 +2,6 @@
 
 # TODO convert to a bunch of smaller, runnable, examples.
 
-## unset
-
-    unset xrange
-
 ## Plot
 
   # set xrange:
@@ -130,17 +126,6 @@
 
     set output
     set terminal x11
-
-  ## Save gif video
-
-      set key off
-      set term gif animate
-      set out "out.gif"
-      p sin(x)
-      n = 20
-      for [i=1:n]{ rep sin(x+i*2*pi/n) }
-
-    # Now whatever you plot will go to a gif video file!
 
 ## SAve session
 

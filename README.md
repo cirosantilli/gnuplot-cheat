@@ -17,3 +17,4 @@ Minimal Gnuplot commented examples.
         1.  [Data multiple](data-multiple.gnuplot)
     1.  [Samples](samples.gnuplot)
     1.  [splot](splot.gnuplot)
+    1.  [GIF animation](animation.gif.gnuplot)

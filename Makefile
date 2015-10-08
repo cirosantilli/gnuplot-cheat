@@ -1,17 +1,22 @@
 .POSIX:
 
 IN_EXT ?= .gnuplot
-OUT_EXT ?= .png
+GIF_EXT ?= .gif
+PNG_EXT ?= .png
 
-OUTS := $(patsubst %$(IN_EXT),%$(OUT_EXT),$(wildcard *$(IN_EXT)))
-OUTS := $(filter-out main$(OUT_EXT),$(OUTS))
+GIFS := $(patsubst %$(GIF_EXT)$(IN_EXT),%$(GIF_EXT),$(wildcard *$(IN_EXT)))
+PNGS := $(patsubst %$(IN_EXT),%$(PNG_EXT),$(wildcard *$(IN_EXT)))
+PNGS := $(filter-out main$(PNG_EXT),$(PNGS))
 
 .PHONY: clean
 
-all: $(OUTS)
+all: $(PNGS) $(GIFS)
 
-%$(OUT_EXT): %$(IN_EXT)
+%$(PNG_EXT): %$(IN_EXT)
 	gnuplot -e 'set terminal png' -e 'set output "$@"' '$<'
 
+%$(GIF_EXT): %$(GIF_EXT)$(IN_EXT)
+	gnuplot -e 'set terminal gif animate delay 10' -e 'set output "$@"' '$<'
+
 clean:
-	rm -f *$(OUT_EXT)
+	rm -f *$(GIF_EXT) *$(PNG_EXT)
