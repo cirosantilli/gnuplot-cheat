@@ -4,17 +4,11 @@
 
 ## Plot
 
-  # set xrange:
+  # Set xrange on plot command:
 
     p [-5:5] sin(x)
 
-  ## With
-
-    # plot style
-
-    # Line:
-
-      p sin(x) w l
+  # Can also be done with `set xrange`.
 
   ## EVery
 
@@ -23,16 +17,6 @@
     # plot only the first column up to the 10th:
 
       p fp ev ::1::10
-
-  ## Line Width
-
-      p sin(x) lw 0.25
-      p sin(x) lw 25
-
-  ## Line Color
-
-      p sin(x) lc rgb "red"
-      p sin(x) lc rgb "blue"
 
 ## CLear
 
@@ -109,23 +93,6 @@
 
     # - use command line arguments
     # - define non mathematical functions (`f(){p sin(x); rep cos(x)}`)
-
-## Save image to file
-
-    p abs(x)
-
-  # Save the image
-
-    set terminal gif
-    set output "out.gif"
-    rep
-
-  # jpeg, png, svg, postscript also possible.
-
-  # Return to normal plotting mode in Linux:
-
-    set output
-    set terminal x11
 
 ## SAve session
 

@@ -6,7 +6,7 @@
 
 ## ylabel
 
-    # Set axis labels.
+# Set axis labels.
 
 set xlabel "My X label"
 set ylabel "My Y label"

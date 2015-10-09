@@ -4,6 +4,9 @@
 
 # One way to avoid that, is to use a single plot command and separate them with commas.
 
-# Another method is `replot`.
+# Other methods include:
+
+# - `replot`
+# - plot for
 
 plot sin(x), cos(x)

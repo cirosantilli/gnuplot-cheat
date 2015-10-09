@@ -16,14 +16,14 @@
 
 ### Using
 
-    # Select which data columns to plot.
+# Select which data columns to plot.
 
-    # Only columns 2 and 3:
+# Only columns 2 and 3:
 
-        # p "a.dat" u 2:3
+    # p "a.dat" u 2:3
 
-### Store labels in the data file
+### Store axis labels in the data file
 
-    # TODO?
+# TODO?
 
 plot "square.data"

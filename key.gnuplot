@@ -2,11 +2,28 @@
 
 ## key
 
-    # The key is a legend that explains one of the data sets shown in a plot.
+# The key is a legend that explains one of the data sets shown in a plot.
 
-    # For example, if we didn't turn it off here, `sin(x)` whould show on the screen.
+# Their text can be changed with `plot title`.
 
-    # When data files are used, the default is to use the file name.
+set multiplot layout 6,1
 
 set key off
-plot sin(x)
+plot sin(x) title "off"
+
+set key outside
+plot sin(x) title "outside"
+
+set key inside
+plot sin(x) title "inside"
+
+set key right outside
+plot sin(x) title "right outside"
+
+set key rmargin
+plot sin(x) title "rmargin"
+
+set key center bottom outside
+plot sin(x) title "bottom outside"
+
+unset multiplot

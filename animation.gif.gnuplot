@@ -1,5 +1,7 @@
 #!/usr/bin/env gnuplot
 
+# Generate a GIF animation.
+
 set key off
 p sin(x)
 n = 20
