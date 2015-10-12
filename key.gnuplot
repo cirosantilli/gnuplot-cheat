@@ -8,6 +8,7 @@
 
 set multiplot layout 6,1
 
+# Can also be done with `plot notitle` for a single plot.
 set key off
 plot sin(x) title "off"
 

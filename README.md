@@ -13,6 +13,7 @@ Minimal explained Gnuplot examples.
         1.  [Label](label.gnuplot)
         1.  [key](key.gnuplot)
             1.  [key title](key-title.gnuplot)
+                1.  [columnheader](columnheader.gnuplot)
     1.  Axis
         1.  [Range](range.gnuplot)
         1.  [offset graph](offset-graph.gnuplot)
@@ -34,6 +35,8 @@ Minimal explained Gnuplot examples.
         1.  [Inline data](inline-data.gnuplot)
         1.  [Samples](samples.gnuplot)
     1.  [object circle](object-circle.gnuplot)
-    1.  [splot](splot.gnuplot)
+    1.  3D
+        1.  [splot](splot.gnuplot)
+        1.  [pm3d](pm3d)
     1.  [GIF animation](animation.gif.gnuplot)
     1.  [Interactive](interactive/)

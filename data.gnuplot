@@ -10,7 +10,7 @@
 # - newline separated rows
 # - lines starting with # are ignored
 # - single empty lines are ignored
-# - double empty lines mean a new data set
+# - double empty lines mean a new data set. Use `using lines` to observe it.
 
 # C-like integers and floats are understood.
 

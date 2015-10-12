@@ -69,7 +69,7 @@
 
     ## piecewise
 
-        step(x) = x>a ? 1 : 0
+        step(x) = x > a ? 1 : 0
         p f(x)*(x<0.8) +  g(x)*(x>=0.8)
           # disadvantage: both parts are always evaluated
 
@@ -83,11 +83,11 @@
 
     pr "as"."df"
 
-    if( 1 ){ pr "1" }
-    if( 0 ){ pr "0" }
+    if (1) { pr "1" }
+    if (0) { pr "0" }
 
-    do for[i=1:5:2]{ pr i }
-    do for[i=1:5:2]{ pr i }
+    do for[i=1:5:2] { pr i }
+    do for[i=1:5:2] { pr i }
 
   ## Not possible in 4.6:
 

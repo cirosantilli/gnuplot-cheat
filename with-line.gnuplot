@@ -9,5 +9,5 @@
 # Add a line to plotted data.
 
 plot \
-    "square.data" with line,\
+    "square.data" with lines,\
     "line.data" w l,

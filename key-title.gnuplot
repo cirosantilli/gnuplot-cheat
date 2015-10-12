@@ -4,5 +4,6 @@
 
 set key outside center right
 plot \
-    sin(x) title "my sin",\
-    cos(x) title "my cos"
+    sin(x) + 0 title "my sin",\
+    sin(x) + 1 title "my sin + 1",\
+    sin(x) + 2 notitle
