@@ -1,4 +1,4 @@
 before_install:
   - sudo apt-get update -qq
-  - sudo apt-get install gnuplot
+  - sudo apt-get install gnuplot-x11
 script: make
