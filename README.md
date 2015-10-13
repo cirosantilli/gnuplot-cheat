@@ -1,5 +1,7 @@
 # Gnuplot Examples
 
+[![Build Status](https://travis-ci.org/cirosantilli/gnuplot-examples.svg?branch=master)](https://travis-ci.org/cirosantilli/gnuplot-examples)
+
 Minimal explained Gnuplot examples.
 
 1.  [Introduction](review.md)
