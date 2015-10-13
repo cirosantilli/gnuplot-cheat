@@ -10,4 +10,4 @@
 
 plot \
     "square.data" with lines,\
-    "line.data" w l,
+    "line.data" w l

@@ -10,7 +10,7 @@ script:
   - make zip
 deploy:
   provider: releases
-  api_key: 'TODO'
+  api_key: '$GITHUB_API_KEY'
   file: 'gnuplot-examples.zip'
   skip_cleanup: true
   on:
