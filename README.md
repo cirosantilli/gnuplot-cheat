@@ -4,6 +4,8 @@
 
 Minimal explained Gnuplot examples.
 
+Compiled outputs for tags: <https://github.com/cirosantilli/gnuplot-examples/releases>
+
 1.  [Introduction](review.md)
     1.  [Review](review.md)
     1.  [Invocation](invocation.md)
