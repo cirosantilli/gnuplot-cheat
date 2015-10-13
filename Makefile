@@ -3,6 +3,7 @@
 IN_EXT ?= .gnuplot
 GIF_EXT ?= .gif
 PNG_EXT ?= .png
+ZIP ?= gnuplot-examples.zip
 
 GIFS := $(patsubst %$(GIF_EXT)$(IN_EXT),%$(GIF_EXT),$(wildcard *$(IN_EXT)))
 PNGS := $(patsubst %$(IN_EXT),%$(PNG_EXT),$(wildcard *$(IN_EXT)))
@@ -20,4 +21,8 @@ all: $(PNGS) $(GIFS)
 	gnuplot -e 'set terminal gif animate delay 10' -e 'set output "$@"' '$<'
 
 clean:
-	rm -f *$(GIF_EXT) *$(PNG_EXT)
+	rm -f *$(GIF_EXT) *$(PNG_EXT) '$(ZIP)'
+
+zip: all
+	rm -f '$(ZIP)'
+	zip -r '$(ZIP)' *$(GIF_EXT) *$(PNG_EXT)
