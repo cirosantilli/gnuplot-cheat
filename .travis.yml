@@ -14,7 +14,7 @@ after_success: |
     git checkout -b gh-pages
     git add .
     git -c user.name='travis' -c user.email='travis' commit -m init
-    git push -f https://cirosantilli:$GITHUB_API_KEY@github.com/cirosantilli/gnuplot-examples-gh-pages gh-pages
+    git push -f -q https://cirosantilli:$GITHUB_API_KEY@github.com/cirosantilli/gnuplot-examples-gh-pages gh-pages &2>/dev/null
     cd "$TRAVIS_BUILD_DIR"
   fi
 script:
