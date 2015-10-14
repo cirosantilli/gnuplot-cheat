@@ -10,8 +10,9 @@ script:
   - make zip
 deploy:
   provider: releases
-  api_key: '$GITHUB_API_KEY'
-  file: 'gnuplot-examples.zip'
+  api_key:
+    secure: "CXyM+zf35Jp/pBHd6VNq+f28ErfGQqhR3klorayXUx6mnITbJb0L+1kfWF3H9dMQc9sceHo3YPzLGlQp3UGtTWQbYAPqz1KQ5Sus2kTxc4aTeT5mdXaz3nZ8B6gkMC6Okwew6gyU6le35bxrJkc0NuXvKlYl92kYEMAconZLs5PY5ePGI6nr/t4NxfSUP3RKlFyx1+0GK+s3eViiKLR4aNMt774OUeZnzCmUOX617foVWWYN72jgXyPtBHe6IxogrUVkp4DoF0z2pcV/SwrNib56qTNk7YC7QSyhpW8LYlrCSNvVS0L/EvN5lTPmNFxcjouSCxAdp+t8g8j69c8Gnp35iz3Mpjsq/Lmh0WagEvBcpKU1u9cXf3jYBVWC0p7BK0X3A16BHCWbvA0rtoKlJJYKyHTrX3LiEiBc1Psb4jKtwLZkUgvML51JTl/vAEQQ0erN7EXP09xJouwmiB+gvCdBL+EWNV7jmTy9U1WLFWHzC6xeKc+ausXNCDd7xEwqXevJ1YrV/EQWM75TOOGKiEK8a56m/EEOiy8vixk7dkOHHmipe4qn1FiNNOHhrjWEo1O62RSNA6mociaMRJmnmaC4czqBC5TeTLfvjkmysO/7fKYJxndVDcX5652XBKT4aYjTkI9z7JwJ9ORddrmED5nGpmVRnjFUOMDTlU8GlT0="
+  file: gnuplot-examples.zip
   skip_cleanup: true
   on:
     tags: true
