@@ -5,6 +5,18 @@ before_install:
   # Fails because gnuplot is too old there.
   #- sudo apt-get update -qq
   #- sudo apt-get install gnuplot-x11
+after_success: |
+  if [ -n "$GITHUB_API_KEY" ]; then
+    cd "$TRAVIS_BUILD_DIR"
+    make web
+    cd web
+    git init
+    git checkout -b gh-pages
+    git add .
+    git -c user.name='travis' -c user.email='travis' commit -m init
+    git push -f https://cirosantilli:$GITHUB_API_KEY@github.com/cirosantilli/gnuplot-examples-gh-pages gh-pages
+    cd "$TRAVIS_BUILD_DIR"
+  fi
 script:
   - gnuplot --version
   - make zip

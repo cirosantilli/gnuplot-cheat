@@ -2,4 +2,5 @@ tmp.gnuplot
 *.gif
 *.png
 *.svg
+/web
 *.zip

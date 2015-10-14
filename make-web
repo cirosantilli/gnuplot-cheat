@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+dir="$1"
+index="index.html"
+cd "$1"
+imgs=*
+
+printf '<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Gnuplot Examples</title>
+</head>
+<body>
+<h1>Gnuplot Examples</h1>
+' > "$index"
+
+for img in $imgs; do
+  echo "<p>$img</p>" >> "$index"
+  echo "<img src=\"$img\" />" >> "$index"
+done
+
+printf '</body>
+</html>
+' >> "$index"
