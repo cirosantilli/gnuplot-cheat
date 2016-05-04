@@ -10,11 +10,11 @@ You can also add a `#!/usr/bin/env gnuplot` shebang and run it as:
 
 ## e
 
-## p
-
 `-e` executes a string and exits.
 
 By default, when it exits plot windows get closed.
+
+## p
 
 You can prevent that with `-p`:
 

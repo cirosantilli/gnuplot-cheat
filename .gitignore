@@ -1,6 +1,6 @@
-tmp.gnuplot
 *.gif
 *.png
 *.svg
-/web
 *.zip
+/web
+/tmp.gnuplot

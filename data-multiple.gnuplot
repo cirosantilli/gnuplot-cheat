@@ -5,8 +5,11 @@
 set multiplot layout 4,1
 
 # Column choice method.
-plot "square-line.data" using 1:2 title "Square", \
-     "square-line.data" using 3:4 title "Line"
+# Variable to reuse file name.
+# Can also be done with empty filename string.
+f = 'square-line.data'
+plot f using 1:2 title 'Square', \
+     f using 3:4 title 'Line'
 
 # Double empty line separated data sets.
 plot '-' with lines
@@ -21,12 +24,13 @@ plot '-' with lines
     e
 
 # Select a single data set from multiple data set file.
+# Empty file to reuse file name.
 plot 'multiple.data' index 0 with lines linecolor rgb 'red', \
-     'multiple.data' index 1 with lines linecolor rgb 'green'
+     '' index 1 with lines linecolor rgb 'green'
 
 # Choose by data name (from comments).
 plot 'multiple.data' index 'Square' with lines linecolor rgb 'red', \
-     'multiple.data' index 'Line' with lines linecolor rgb 'green'
+     '' index 'Line' with lines linecolor rgb 'green'
 
 # TODO: same as above but inline?
 # Maybe the problem is that each `-` expects a new file.

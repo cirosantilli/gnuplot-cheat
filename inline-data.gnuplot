@@ -23,6 +23,9 @@ plot '-' lw 3
     e
 
 # Multiple data syntax looks like Bash EOF.
+# Cannot reuse - multiple times:
+# http://stackoverflow.com/questions/10397750/embedding-multiple-datasets-in-a-gnuplot-command-script/33064402#33064402
+
 plot '-' lw 3, '-' lw 3
     0 0
     1 1

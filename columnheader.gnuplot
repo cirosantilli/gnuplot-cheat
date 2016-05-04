@@ -1,10 +1,15 @@
 #!/usr/bin/env gnuplot
 
-# Take title from file. Skips the line.
+# Take title from file. Skip that line.
+# http://stackoverflow.com/questions/1841640/labels-on-the-input-data-in-gnuplot
 
-plot '-' linewidth 3 title columnheader(1)
-    Square
-    1 1
-    2 4
-    3 9
-    e
+set multiplot layout 2,1
+
+plot 'columnheader.data' using 1:2 title columnheader(2), \
+	'' using 1:3 title columnheader(3)
+
+set key autotitle columnheader
+plot 'columnheader.data' using 1:2, \
+	'' using 1:3
+
+unset multiplot
