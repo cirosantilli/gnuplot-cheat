@@ -1,0 +1,12 @@
+#!/usr/bin/env gnuplot
+
+# http://stackoverflow.com/questions/12818797/gnuplot-plotting-several-datasets-with-titles-from-one-file/39211206#39211206
+
+datafile = 'tmp.data'
+stats datafile nooutput
+plot for [IDX=0:STATS_blocks-1] \
+    datafile \
+    index IDX \
+    using 1:2 \
+    with lines \
+    title columnheader(1)

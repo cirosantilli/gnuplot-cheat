@@ -34,6 +34,7 @@ Minimal explained Gnuplot examples. Compiled outputs: <http://www.cirosantilli.c
         1.  [replot](replot.gnuplot)
     1.  [Data](data.gnuplot)
         1.  [Data multiple](data-multiple.gnuplot)
+        1.  [Data multiple headers](data-multiple-headers.gnuplot.off)
         1.  [Inline data](inline-data.gnuplot)
         1.  [Samples](samples.gnuplot)
     1.  [object circle](object-circle.gnuplot)

@@ -26,11 +26,11 @@ plot '-' with lines
 # Select a single data set from multiple data set file.
 # Empty file to reuse file name.
 plot 'multiple.data' index 0 with lines linecolor rgb 'red', \
-     '' index 1 with lines linecolor rgb 'green'
+     ''              index 1 with lines linecolor rgb 'green'
 
 # Choose by data name (from comments).
 plot 'multiple.data' index 'Square' with lines linecolor rgb 'red', \
-     '' index 'Line' with lines linecolor rgb 'green'
+     ''              index 'Line'   with lines linecolor rgb 'green'
 
 # TODO: same as above but inline?
 # Maybe the problem is that each `-` expects a new file.
