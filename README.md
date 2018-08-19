@@ -21,6 +21,7 @@ Minimal explained Gnuplot examples. Compiled outputs: <http://www.cirosantilli.c
         1.  [offset graph](offset-graph.gnuplot)
         1.  [logscale](logscale.gnuplot)
         1.  [border](border.gnuplot)
+        1.  [auto-x](auto-x.gnuplot)
     1.  Data style
         1.  [with line](with-line.gnuplot)
         1.  [with points](with-points.gnuplot)

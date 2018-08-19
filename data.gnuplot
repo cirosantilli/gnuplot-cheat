@@ -20,7 +20,7 @@
 
 # Only columns 2 and 3:
 
-    # p "a.dat" u 2:3
+    # plot "a.dat" using 2:3
 
 ### Store axis labels in the data file
 
