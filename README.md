@@ -12,7 +12,9 @@ Minimal explained Gnuplot examples. Compiled outputs: <http://www.cirosantilli.c
     1.  [min](min.gnuplot)
     1.  Annotations
         1.  [title](title.gnuplot)
-        1.  [Label](label.gnuplot)
+        1.  [Axis labels](axis-label.gnuplot)
+        1.  [Point labels](point-label.gnuplot)
+            1.  [Point labels with custom format](point-label-format.gnuplot)
         1.  [key](key.gnuplot)
             1.  [key title](key-title.gnuplot)
                 1.  [columnheader](columnheader.gnuplot)
