@@ -41,6 +41,7 @@ Minimal explained Gnuplot examples. Compiled outputs: <http://www.cirosantilli.c
         1.  [Inline data](inline-data.gnuplot)
         1.  [Samples](samples.gnuplot)
     1.  [object circle](object-circle.gnuplot)
+    1.  [Intervals](intervals.gnuplot)
     1.  3D
         1.  [splot](splot.gnuplot)
         1.  [pm3d](pm3d)
