@@ -4,7 +4,7 @@
 # with a known number of blocks.
 
 plot \
-  'multiple-blocks.data' \
+  'multiple-blocks.dat' \
     index 0 \
     title 'my line' \
     with linespoints \

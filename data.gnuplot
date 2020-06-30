@@ -26,4 +26,4 @@
 
 # TODO?
 
-plot "square.data"
+plot "square.dat"

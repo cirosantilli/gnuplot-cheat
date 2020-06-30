@@ -1,7 +1,7 @@
 #!/usr/bin/env gnuplot
 # Choose by data set name from header comments in data file.
 plot \
-  'multiple-with-headers.data' \
+  'multiple-with-headers.dat' \
     index 'Square' \
     title 'my square' \
     with linespoints \

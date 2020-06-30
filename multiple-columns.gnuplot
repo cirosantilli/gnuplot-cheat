@@ -8,7 +8,7 @@ set title "my subtitle 1 1"
 # Column choice method.
 # Variable to reuse file name.
 # Can also be done with empty filename string.
-f = 'square-line.data'
+f = 'square-line.dat'
 plot f using 1:2 title 'Square' with linespoints, \
      f using 3:4 title 'Line' with linespoints
 

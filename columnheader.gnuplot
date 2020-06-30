@@ -5,11 +5,11 @@
 
 set multiplot layout 2,1
 
-plot 'columnheader.data' using 1:2 title columnheader(2), \
+plot 'columnheader.dat' using 1:2 title columnheader(2), \
 	'' using 1:3 title columnheader(3)
 
 set key autotitle columnheader
-plot 'columnheader.data' using 1:2, \
+plot 'columnheader.dat' using 1:2, \
 	'' using 1:3
 
 unset multiplot
