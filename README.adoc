@@ -1,0 +1,52 @@
+= Gnuplot Examples
+
+https://travis-ci.org/cirosantilli/gnuplot-examples[image:https://travis-ci.org/cirosantilli/gnuplot-examples.svg?branch=master[Build Status]]
+
+Minimal explained Gnuplot examples. Compiled outputs: http://www.cirosantilli.com/gnuplot-examples-gh-pages/
+
+. link:introduction.md[]
+.. link:review.md[]
+.. link:invocation.md[]
+. Examples
+.. link:main.gnuplot[]
+.. link:min.gnuplot[]
+.. Annotations
+... link:title.gnuplot[]
+... link:axis-label.gnuplot[Axis labels]
+... link:point-label.gnuplot[Point labels]
+.... link:point-label-format.gnuplot[Point labels with custom format]
+... link:key.gnuplot[key]
+.... link:key-title.gnuplot[key title]
+..... link:columnheader.gnuplot[columnheader]
+.. Axis
+... link:range.gnuplot[Range]
+... link:offset-graph.gnuplot[offset graph]
+... link:logscale.gnuplot[logscale]
+... link:border.gnuplot[border]
+... link:auto-x.gnuplot[auto-x]
+.. Data style
+... link:with-line.gnuplot[with line]
+... link:with-points.gnuplot[with points]
+... link:with-linespoints.gnuplot[with linespoints]
+... link:linewidth.gnuplot[linewidth]
+... link:linecolor.gnuplot[linecolor]
+... link:pointsize.gnuplot[pointsize]
+... link:pointtype.gnuplot[pointtype]
+.. link:multiple.gnuplot[Multiple]
+... link:multiplot-layout.gnuplot[multiplot layout]
+... link:replot.gnuplot[replot]
+.. link:data.gnuplot[Data]
+... link:multiple-columns.gnuplot[Multiple columns]
+.... link:multiple-blocks.gnuplot[]
+.... link:multiple-blocks-loop.gnuplot[]
+.... link:multiple-blocks-inline.gnuplot[]
+.... link:multiple-blocks-headeres.gnuplot[]
+... link:inline-data.gnuplot[Inline data]
+... link:samples.gnuplot[Samples]
+.. link:object-circle.gnuplot[object circle]
+.. link:intervals.gnuplot[Intervals]
+.. 3D
+... link:splot.gnuplot[splot]
+... link:pm3d.gnuplot[]
+.. link:animation.gif.gnuplot[GIF animation]
+.. link:interactive/[Interactive]
