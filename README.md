@@ -38,6 +38,7 @@ Minimal explained Gnuplot examples. Compiled outputs: <http://www.cirosantilli.c
     1.  [Data](data.gnuplot)
         1.  [Multiple columns](multiple-columns.gnuplot)
             1.  [multiple-blocks.gnuplot](multiple-blocks.gnuplot)
+            1.  [multiple-blocks-loop.gnuplot](multiple-blocks-loop.gnuplot)
             1.  [multiple-blocks-inline.gnuplot](multiple-blocks-inline.gnuplot)
             1.  [multiple-blocks-headeres.gnuplot](multiple-blocks-headeres.gnuplot)
         1.  [Inline data](inline-data.gnuplot)
