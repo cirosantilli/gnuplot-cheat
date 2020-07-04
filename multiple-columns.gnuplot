@@ -1,8 +1,8 @@
 #!/usr/bin/env gnuplot
 
-# Multiple plots from a single data file file.
+# Multiple plots from a single data file.
 
-set multiplot layout 2,1 title "global title"
+#set multiplot layout 2,1 title "global title"
 
 set title "my subtitle 1 1"
 # Column choice method.
@@ -27,4 +27,4 @@ plot f using 1:2 title 'Square' with linespoints, \
     #3 9
     #e
 
-unset multiplot
+#unset multiplot
