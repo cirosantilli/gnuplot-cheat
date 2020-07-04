@@ -2,9 +2,6 @@
 
 ## splot
 
-set terminal png
-set output 'splot-domain.png'
-
 # Number of x and y samples.
 set isosamples 10, 5
 
