@@ -48,7 +48,8 @@ Minimal explained Gnuplot examples. Compiled outputs: http://www.cirosantilli.co
 .. link:intervals.gnuplot[Intervals]
 .. 3D
 ... link:splot.gnuplot[]
-... link:splot-data-linear.gnuplot[]
+.... link:splot-data-linear.gnuplot[]
+.... link:splot-data-matrix.gnuplot[]
 ... Heatmap
 .... link:heatmap.gnuplot[]
 .. link:animation.gif.gnuplot[GIF animation]
