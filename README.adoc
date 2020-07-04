@@ -42,11 +42,14 @@ Minimal explained Gnuplot examples. Compiled outputs: http://www.cirosantilli.co
 .... link:multiple-blocks-inline.gnuplot[]
 .... link:multiple-blocks-headeres.gnuplot[]
 ... link:inline-data.gnuplot[Inline data]
-... link:samples.gnuplot[Samples]
+... Plot functions
+.... link:samples.gnuplot[Samples]
 .. link:object-circle.gnuplot[object circle]
 .. link:intervals.gnuplot[Intervals]
 .. 3D
-... link:splot.gnuplot[splot]
-... link:pm3d.gnuplot[]
+... link:splot.gnuplot[]
+... link:splot-data-linear.gnuplot[]
+... Heatmap
+.... link:heatmap.gnuplot[]
 .. link:animation.gif.gnuplot[GIF animation]
 .. link:interactive/[Interactive]
