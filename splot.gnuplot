@@ -23,4 +23,5 @@ set xyplane at 0
 set xlabel 'x'
 set ylabel 'y'
 
-splot '++' using 1:2:($2**2) with lines
+# palette adds color to the lines.
+splot '++' using 1:2:($2**2) with lines palette
